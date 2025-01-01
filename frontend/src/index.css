@@ -1,0 +1,95 @@
+/* App.css */
+
+/* Overall App Container - Centers Content */
+.app-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;    /* Center vertically */
+  min-height: 100vh;      /* Full height of the viewport */
+  background-color: #f4f4f9;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Form Container */
+.form-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+}
+
+/* Title */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+/* Textarea for Requirements */
+.requirements-input {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+/* File Input */
+.file-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+.submit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Result Container */
+.result-container {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #e7f5ff;
+  border: 1px solid #0074d9;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.result-container h2 {
+  font-size: 18px;
+  color: #0056b3;
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  font-size: 14px;
+  color: #333333;
+}
